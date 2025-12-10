@@ -1,0 +1,21 @@
+body{
+  margin:0;
+  padding-top:120px;
+  padding-left:210px;
+  padding-right:20px;
+  height:500px;
+}
+p{
+  font-family:Roboto,Arial;
+  margin-top:0;
+  margin-bottom:0;
+  }
+  .user-location{
+   font-size:10px;
+   margin-left:4px;
+   color:rgb(59, 57, 57);
+   font-family:Roboto,Arial;
+   position:fixed;
+   left:162px;
+   top:11px;
+  }

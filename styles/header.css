@@ -1,0 +1,130 @@
+.header{
+  height:55px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  position:fixed;
+  top: 0;
+  left:0;
+  right:0;
+  background-color:rgb(250, 244, 244);
+  z-index:1;
+}
+.left-section{
+  align-items:center;
+  display:flex;
+}
+.middle-section{
+  display:flex;
+  align-items:center;
+  flex:1;
+  margin-left:70px;
+  margin-right:35px;
+  max-width:680px;
+}
+.right-section{
+  width:180px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-right:50px;
+  flex-shrink:0;
+}
+.hamburger-menu{
+  height: 25px;
+  margin-left:33px;
+  margin-right:23px;
+  cursor:pointer;
+} 
+.youtube-logo{
+  height:20px ;
+}
+.search-icon{
+  height:25px;
+}
+.search-button{
+  height:39px;
+  width:50px;
+  border-style:solid;
+  border-width:1px;
+  border-left-width:0px;
+  border-color:rgb(189, 188, 188);
+  padding-left:15px;
+  padding-right:41px;
+  border-top-right-radius:50px;
+  border-bottom-right-radius:50px;
+  background-color:rgb(247, 247, 247);
+}
+.voice-icon{
+  height:25px;
+}
+.voice-search-button{
+  height:39px;
+  width:42px;
+  margin-left:10px;
+  border-style:none;
+  border-radius:100%;
+  background-color:rgb(238, 236, 236);
+}
+.search-bar{
+  flex:1;
+  height:35px;
+  padding-left:12px;
+  font-size:15px;
+  border-width:1px;
+  border-style:solid;
+  border-color:rgb(189, 188, 188);
+  border-top-left-radius:50px;
+  border-bottom-left-radius:50px;
+  width:0;
+  outline:none;
+}
+.search-bar::placeholder{
+   font-family:Roboto,Arial;
+   font-size:16px; 
+}
+.create-button{
+  font-weight:bold;
+  padding-right:50px;
+  height:39px;
+  width:100px;
+  border-width:1px;
+  border-style:none;
+  border-radius:100px;
+  display:flex;
+  align-items:center;
+  background-color:rgb(238, 236, 236);
+}
+.create-icon{
+  height:25px;
+  padding-left:5px;
+  padding-right:9px;
+}
+.notif-icon{
+  height:25px;
+  margin-left:15px;
+}
+.channel-icon{
+  height:30px;
+  border-radius:100px;
+  object-fit:cover;
+  margin-left:20px;
+  cursor:pointer;
+}
+.notif-container{
+  position: relative;
+}
+.notif-count{
+  position:absolute;
+  top:-1px;
+  right:-8px;;
+  color:white;
+  background-color:rgb(224, 9, 9);
+  font-family:Roboto,Arial, Helvetica, sans-serif;
+  font-size:11px;
+  font-weight:600;
+  border-radius:100px;
+  padding:1px 4px;
+  padding-top:0;
+  border-radius:10px;
+}
